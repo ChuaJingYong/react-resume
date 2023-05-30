@@ -2,7 +2,7 @@ function App(){
   return(
     <>
     <h1>Jing Yong</h1>
-    <h2>Software Developer</h2>
+    <h2>Eudcator and Software Developer</h2>
     </>
   )
 }
