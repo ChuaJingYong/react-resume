@@ -1,8 +1,18 @@
+function Experience() {
+  return(
+      <>  {/* <> is like an empty container that doesn't add more to the HTML. Basically a React fragment  */}
+          <h3>Software Developer</h3> 
+          <h4>Sigma Lab Sdn Bhd</h4>
+      </>
+  )
+}
+
 function App(){
   return(
     <>
-    <h1>Jing Yong</h1>
-    <h2>Eudcator and Software Developer</h2>
+      <h1>Jing Yong</h1>
+      <h2>Eudcator and Software Developer</h2>
+      <Experience/>
     </>
   )
 }
